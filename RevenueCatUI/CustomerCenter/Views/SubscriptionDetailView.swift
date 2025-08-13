@@ -263,11 +263,12 @@ struct SubscriptionDetailView: View {
     private var accountDetailsView: some View {
         Spacer().frame(height: 16)
 
-        AccountDetailsSection(
-            originalPurchaseDate: customerInfoViewModel.originalPurchaseDate,
-            originalAppUserId: customerInfoViewModel.originalAppUserId,
-            localization: localization
-        )
+        // AccountDetailsSection(
+        //     originalPurchaseDate: customerInfoViewModel.originalPurchaseDate,
+        //     originalAppUserId: customerInfoViewModel.originalAppUserId,
+        //     localization: localization
+        // )
+        EmptyView()
     }
 
     @ViewBuilder
